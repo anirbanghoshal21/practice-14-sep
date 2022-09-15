@@ -16,7 +16,7 @@ namespace CustomerUser
         {
             Customer cust1 = new Customer();
             cust1.UserId = 101;
-            cust1.Password = "myPassAmi";
+            cust1.Password = "123456789";
             bool validate = cust1.loginstatus();
 
             FileStream fs = new FileStream(@"loginstatus.bin", FileMode.Create, FileAccess.Write);
