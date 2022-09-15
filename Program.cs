@@ -31,8 +31,6 @@ namespace CustomerUser
             fs2.Dispose();
         }
 
-        private class Stock
-        {
-        }
+        
     }
 }
